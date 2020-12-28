@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style/default.css">
+  </head>
+
+  <body>
+    <div class="container mt-3">
+      <nav class="navbar navbar-expand-1g navbar-light">
+        <a class="navbar-brand montserrat" href="/"><span class="name"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse roboto" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link <% if(whichpage == 'index') { %> <%='active' %> <% } %>" href="/">Home Page <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
