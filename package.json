@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/poorboi94/PersonalWebsite/issues"
   },
-  "homepage": "https://github.com/poorboi94/PersonalWebsite#readme"
+  "homepage": "https://github.com/poorboi94/PersonalWebsite#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }

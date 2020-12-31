@@ -1,16 +1,6 @@
 <%- include("_header.ejs") %>
-    <main class="mt-4 rounded">
-        <section class="h-25 montserrat">
-            <h2 class="text-center text-white" style="padding-top:1rem">
-            </h2>
-        </section>
-    </main>
-    <script>
-        $.get("/api/experience", function(docs, status){
-            docs.map(data => {
-                if (data.category == "career")
-                    $(".part-of-career .cards").prepend(`<div class="card m1-3 mt-3 mb-3" style="width: 30rem;">`)
-            })
-        })
-    </script>
+    <div class="home-section">
+        <h1>Home</h1>
+        <p>Please navigate through this page with the nav bar above</p>
+    </div>
 <%- include("_footer.ejs") %>
